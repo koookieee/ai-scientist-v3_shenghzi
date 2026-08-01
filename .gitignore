@@ -1,0 +1,35 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Run outputs
+jobs/
+data/
+logs/
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+template.pdf
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
